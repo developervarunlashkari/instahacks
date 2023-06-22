@@ -1,0 +1,42 @@
+{
+  "id": "8a30832c-93c8-45a5-80fa-803dea14480a",
+  "version": "2.0",
+  "name": "instagram reels generator",
+  "url": "https://www.instagram.com",
+  "tests": [{
+    "id": "3996009f-d0dc-4164-b583-57db271a1263",
+    "name": "open instagram",
+    "commands": [{
+      "id": "6be54f87-6aff-4f12-9861-14d3ca8dbc27",
+      "comment": "",
+      "command": "open",
+      "target": "/reels/CqazkzMIXn9/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50ade096-b1a9-4516-8d00-01c9d59b93d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a63cd9d-7f7d-4e81-b03b-9e24b43ffc5f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4af27654-1f5a-474b-9223-ef8f86187809",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3996009f-d0dc-4164-b583-57db271a1263"]
+  }],
+  "urls": ["https://www.instagram.com/"],
+  "plugins": []
+}

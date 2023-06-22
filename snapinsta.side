@@ -1,0 +1,203 @@
+{
+  "id": "252fa803-9c69-465c-bae9-61018d0b1396",
+  "version": "2.0",
+  "name": "snapinsta",
+  "url": "https://www.instagram.com",
+  "tests": [{
+    "id": "30937ba4-c188-4b7c-ac64-c28a91a9bf03",
+    "name": "open reel",
+    "commands": [{
+      "id": "a5b69386-3b89-4c60-994b-b741ae6e9862",
+      "comment": "",
+      "command": "open",
+      "target": "/reels",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f55ea08-9e66-4fb9-8ba4-89903ba8a5ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9eb9874c-f9a8-470c-89e3-a64e08c8d8ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) .x6s0dn4",
+      "targets": [
+        ["css=div:nth-child(4) .x6s0dn4", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_Sc']/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div[4]/span/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/span/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecdd43b1-7a65-4d7e-9fd7-d2e3ace2bae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) .x6s0dn4",
+      "targets": [
+        ["css=div:nth-child(4) .x6s0dn4", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_Sc']/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div[4]/span/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/span/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dc6e205-0580-4e85-a345-11b7a1001155",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq",
+      "targets": [
+        ["css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq", "css:finder"]
+      ],
+      "value": "12.6749267578125,10.39996337890625"
+    }, {
+      "id": "69657c35-9464-4a31-93f3-6b1feec1ebfe",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq",
+      "targets": [
+        ["css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq", "css:finder"]
+      ],
+      "value": "12.6749267578125,10.39996337890625"
+    }, {
+      "id": "97a48a33-1414-4ee3-bf53-30c46f98e4b3",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq",
+      "targets": [
+        ["css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq", "css:finder"]
+      ],
+      "value": "12.6749267578125,10.39996337890625"
+    }, {
+      "id": "c68dcfb8-6987-46c2-9c18-f3e1b9e307b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq",
+      "targets": [
+        ["css=.x1qjc9v5:nth-child(1) > .x78zum5 .x78zum5:nth-child(5) .x1lliihq", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f37bcc33-a54b-4214-9ccc-924cfff35978",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xjqpnuy",
+      "targets": [
+        ["css=.xjqpnuy", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_LV']/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57921c7b-b749-4fc4-bc4b-651829428d73",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.\\_aalc",
+      "targets": [
+        ["css=.\\_aalc", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_LV']/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "link to video snapinsta"
+    }, {
+      "id": "55ddc58c-28ab-4c1f-a511-6c203684ca80",
+      "comment": "",
+      "command": "open",
+      "target": "ne",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baab5d10-242f-4dad-9570-692333fe5e22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_a9--:nth-child(3)",
+      "targets": [
+        ["css=.\\_a9--:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_26']/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Copy link')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f2c339-077e-4e94-852e-eaac624d5c26",
+      "comment": "",
+      "command": "click",
+      "target": "id=url",
+      "targets": [
+        ["id=url", "id"],
+        ["name=url", "name"],
+        ["css=#url", "css:finder"],
+        ["xpath=//input[@id='url']", "xpath:attributes"],
+        ["xpath=//div[@id='downloader']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a72105d-f4a6-4829-a9dd-8137097521ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=url",
+      "targets": [
+        ["id=url", "id"],
+        ["name=url", "name"],
+        ["css=#url", "css:finder"],
+        ["xpath=//input[@id='url']", "xpath:attributes"],
+        ["xpath=//div[@id='downloader']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "https://www.instagram.com/reel/Cr5o2mEINSI/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+    }, {
+      "id": "c81b7b7b-c540-4757-a72d-9674670532d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-get",
+      "targets": [
+        ["css=.btn-get", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='downloader']/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd7b028-973a-4d19-976c-dbd83e5712c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=get-modal",
+      "targets": [
+        ["id=get-modal", "id"],
+        ["css=#get-modal", "css:finder"],
+        ["xpath=//div[@id='get-modal']", "xpath:attributes"],
+        ["xpath=//div[@id='adOverlay']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "764bcdf2-dc4e-4a6d-beae-96b94188b2fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download Video",
+      "targets": [
+        ["linkText=Download Video", "linkText"],
+        ["css=.download-media", "css:finder"],
+        ["xpath=//a[contains(text(),'Download Video')]", "xpath:link"],
+        ["xpath=//div[@id='download']/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://snapxcdn.com/v2/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2luc3RhZ3JhbS5mZXJ6My0xLmZuYS5mYmNkbi5uZXQvdi90NTAuMjg4Ni0xNi8zNDI0ODcyMTVfMjkyNTYyNDEzMDk1MTU5XzY0ODI3MjYzMTM5NjEyNzk0NDRfbi5tcDQ_X25jX2h0PWluc3RhZ3JhbS5mZXJ6My0xLmZuYS5mYmNkbi5uZXQmX25jX2NhdD0xMDMmX25jX29oYz14Z2pkcl85UEZVZ0FYLWlaNkJyJmVkbT1BUF9WMTBFQkFBQUEmY2NiPTctNSZvaD0wMF9BZkNyZlVyLTNJY3I5alE2XzhjbFZIbXBMUHlFQTFLTHR1NmFQbmhVRXBlU0N3Jm9lPTY0ODM5N0M2Jl9uY19zaWQ9ODcyMWNmJmRsPTEiLCJmaWxlbmFtZSI6IlNuYXBpbnN0YS5hcHBfdmlkZW9fMzQyNDg3MjE1XzI5MjU2MjQxMzA5NTE1OV82NDgyNzI2MzEzOTYxMjc5NDQ0X24ubXA0In0.RIn_FK-HwgIAGrtd-SiSL3SxVd-5hKz605PCBLZo60s&dl=1&dl=1')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download Video')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c616572c-2a0e-4746-a9a5-fc7b646b064c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["30937ba4-c188-4b7c-ac64-c28a91a9bf03"]
+  }],
+  "urls": ["https://www.instagram.com/"],
+  "plugins": []
+}
